@@ -1,0 +1,51 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tico-teco {
+    width: 200px;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10;
+}
+
+.buttonheader {
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.buttonheader :hover {
+    border-color: red;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 250px;
+    height: center;
+    border-radius: 50px;
+}
